@@ -11,12 +11,12 @@ public class fullboundary {
 	
 	public static void main(String[] args) {
 		
-		//ractanglehol();
-		//triangle();
-		//halfPyramid();
-		//numberPyramid();	
-		//invertedHalfNumberPyramid();
-		//oneZeroPatter();
+		ractanglehol();
+		triangle();
+		halfPyramid();
+		numberPyramid();	
+		invertedHalfNumberPyramid();
+		oneZeroPatter();
 		
 		//noRepeatNumberPattern();
 		
@@ -252,7 +252,7 @@ public static void halfPyramid() {
 		}
 		
 		System.out.println();
-		//System.out.println("hahahaahaha");
+		
 		}
 		
 	}
