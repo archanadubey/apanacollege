@@ -1,4 +1,5 @@
 package eightpattern;
+import java.util.List;
 /*print the pattern 
 
 *****
@@ -7,9 +8,14 @@ package eightpattern;
 *****      */
 
 
+import java.util.ArrayList;
+
 public class fullboundary {
 	
 	public static void main(String[] args) {
+		List li = new ArrayList<>();
+		li.add(1);
+		System.out.println(li);
 		
 		ractanglehol();
 		triangle();
@@ -21,6 +27,8 @@ public class fullboundary {
 		//noRepeatNumberPattern();
 		
 		startpattern();
+
+		numberPattern();
 		
 		
 		
@@ -255,6 +263,26 @@ public static void halfPyramid() {
 		
 		}
 		
+	}
+
+	public static void numberPattern() {
+
+		int n = 5;
+
+		for(int i = 1; i <= n; i++) {
+
+			for(int j = 1; j <= i; j++) {
+
+
+				System.out.print(i);
+
+
+			}
+
+			System.out.println();
+
+		}
+
 	}
 	
 	
