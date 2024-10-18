@@ -274,6 +274,17 @@ public static void halfPyramid() {
 			for(int j = 1; j <= i; j++) {
 
 
+				System.out.print(" ");
+				//System.out.print(i);
+
+
+			}
+
+
+			for(int j = n-i; j >= 1; j--) {
+
+
+				System.out.print(" ");
 				System.out.print(i);
 
 
